@@ -1,0 +1,23 @@
+:root {
+  --swagger-ui-white: #ffffff;
+  --swagger-ui-dark-gray: #666666;
+  --swagger-ui-light-gray: #7d8492;
+  --swagger-ui-bright-green: #89bf04;
+  --swagger-ui-dark-green: #005830;
+}
+
+.version-stamp {
+  background:  var(--swagger-ui-dark-gray);
+  border-radius: 57px;
+  display: inline-block;
+  font-size: 10px;
+  margin: 0 0 0 5px;
+  padding: 2px 4px;
+  position: relative;
+  top: -5px;
+  vertical-align: super;
+}
+
+.version-stamp.version-stamp--openapi {
+  background:  var(--swagger-ui-dark-green);
+}

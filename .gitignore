@@ -1,0 +1,10 @@
+node_modules
+lib
+dist
+.idea
+.docz
+docs
+.DS_Store
+.parcel-cache
+
+.vscode

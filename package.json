@@ -15,7 +15,8 @@
   "types": "dist/types.d.ts",
   "type": "module",
   "scripts": {
-    "build": "parcel build"
+    "build": "parcel build",
+    "watch": "parcel watch"
   },
   "keywords": [
     "swagger-ui"

@@ -1,6 +1,6 @@
 {
   "name": "@civicactions/swagger-ui-layout",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-alpha.2",
   "description": "A library of Swagger UI layout plugins.",
   "main": "dist/main.js",
   "css": "dist/main.css",

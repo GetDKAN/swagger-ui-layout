@@ -1,11 +1,15 @@
 {
   "name": "@civicactions/swagger-ui-layout",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A library of Swagger UI layout plugins.",
   "main": "dist/main.js",
+  "module": "dist/module.js",
   "css": "dist/main.css",
   "targets": {
     "main": {
+      "source": "src/index.ts"
+    },
+    "module": {
       "source": "src/index.ts"
     },
     "css": {
@@ -13,9 +17,9 @@
     }
   },
   "types": "dist/types.d.ts",
-  "type": "module",
   "scripts": {
-    "build": "parcel build"
+    "build": "parcel build",
+    "watch": "parcel watch"
   },
   "keywords": [
     "swagger-ui"
